@@ -4,27 +4,38 @@ class App extends Component{
    render(){  
       return(  
 
-         /*
-         <div>  
-            <h1>Traffic Cam</h1>  
-         </div>  
-         */
+         
+         // <div>  
+         //    <h1>Traffic Cam</h1>  
+         // </div>  
+         
 
          <SplitPane
           split="vertical"
-          //minSize={50}
-          //maxSize={300}
-          //defaultSize={100}
-          minSize="50%" 
-          defaultSize="50%"
-          //height="100%"
-          height= "100%"
-          style={{ background: 'white', borderLeft: '1px solid #ccc' }}
-        >
-          <div style={{ background: 'green' }}>Pane 1</div>
-          <div style={{ background: 'purple' }}>Pane 2</div>
+          defaultSize="25%"
+          style={{ background: 'white'}}
+         >
+          <div style={{ background: 'white', height: '100%', borderLeft: '1px dotted black', borderRight: '1px dotted black', borderTop: '1px dotted black', borderBottom: '1px dotted black' }}>Pane 1</div>
+          <div>
+           <SplitPane
+            split="vertical"
+            defaultSize="33.33%"
+            style={{ background: 'white'}}
+            >
+            <div style={{ background: 'white', height: '100%', borderLeft: '1px dotted black', borderRight: '1px dotted black', borderTop: '1px dotted black', borderBottom: '1px dotted black' }}>Pane 2</div>
+            <div>
+            <SplitPane
+             split="vertical"
+             defaultSize="50%"
+             style={{ background: 'white'}}
+            >
+            <div style={{ background: 'white', height: '100%', borderLeft: '1px dotted black', borderRight: '1px dotted black', borderTop: '1px dotted black', borderBottom: '1px dotted black' }}>Pane 3</div>
+            <div style={{ background: 'white', height: '100%', borderLeft: '1px dotted black', borderRight: '1px dotted black', borderTop: '1px dotted black', borderBottom: '1px dotted black' }}>Pane 4</div>
+            </SplitPane>
+          </div>
         </SplitPane>
-
+      </div>
+      </SplitPane>
       );  
    }  
 }  
