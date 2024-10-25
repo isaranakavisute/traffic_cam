@@ -10,10 +10,15 @@ class App extends Component{
          style={{ background: 'black'}}
         >
          
-         <div>
-         <img src="images/Group_1000004584.png" backgroundColor="black" />
-         <img src="images/License_Plate_Recognition.png" backgroundColor="black" />
-         {/* <img src="images/Group_1000004586.png" backgroundColor="black" /> */}
+         <div style={{ background: 'black', backgroundColor: 'black', paddingBottom: '0px', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}> 
+          <div style={{ background: 'black', backgroundColor: 'black', paddingBottom: '0px', width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'left'}}>
+           <div><img src="images/Group_1000004584.png" backgroundColor="black" /></div>
+           <div><img src="images/License_Plate_Recognition.png" backgroundColor="black" /></div>
+          </div>
+          {/* <div><img src="images/Group_1000004584.png" backgroundColor="black" /></div>
+          <div><img src="images/License_Plate_Recognition.png" backgroundColor="black" /></div> */}
+          {/* <div><img src="images/Group_1000004586.png" backgroundColor="black" /> </div> */}
+          <div><img src="images/Group_1000004583.png" backgroundColor="black" /></div>
          </div>
 
 
@@ -60,29 +65,48 @@ class App extends Component{
                 </div>
                </div>
                <div style={{ background: 'grey', backgroundColor: 'grey', paddingBottom: '0px', width: '565px', height: '120px', alignItems: 'center', justifyContent: 'center', display: 'flex'}}>
-                <div style={{ border: '1px solid black', width: '500px', height: '50px', alignItems: 'center', justifyContent: 'center', display: 'flex'}}>
+                {/* <div style={{ border: '1px solid black', width: '500px', height: '50px', alignItems: 'center', justifyContent: 'center', display: 'flex'}}>
                  78-5456 กรุงเทพมหานคร
-                </div>
-                <div style={{ border: '1px solid black', width: '500px', height: '50px', alignItems: 'center', justifyContent: 'center', display: 'flex'}}>
+                </div> */}
+                {/* <div style={{ border: '1px solid black', width: '500px', height: '50px', alignItems: 'center', justifyContent: 'center', display: 'flex'}}>
                  78-5456 กรุงเทพมหานคร
-                </div>
+                </div> */}
+                <table border="1" bordercolor="black" align="center" width='500px'>
+                 <tr>
+                  <td colSpan="2" align="center">78-5456 กรุงเทพมหานคร</td>
+                 </tr>
+                 <tr>
+                  <td align="center" borderRight="1">Isuzu White</td>
+                  <td align="center">2024-06-28 10:12:02</td>
+                 </tr>
+                </table>
                </div>
               </div>
               
              <div>
               <div style={{ border: '1px solid green', width: '565px', height: '275px', borderRadius: '0px', flexWrap: 'wrap', display: 'flex' }}>
-               <div style={{ background: 'black', backgroundColor: 'black', paddingBottom: '0px'}} ><img src="images/Rectangle_16156.png" backgroundColor="black" /></div>
+               <div style={{ background: 'black', backgroundColor: 'black', paddingBottom: '0px'}} ><img src="images/Rectangle_16148.png" backgroundColor="black" width="274px" height="246px" /></div>
                <div style={{ background: 'grey', backgroundColor: 'grey', paddingBottom: '0px', height: '246px', alignItems: 'center', justifyContent: 'center', display: 'flex'}}>
-                <div style={{ background: 'black', backgroundColor: 'black', paddingBottom: '0px'}} ><img src="images/Rectangle_16155.png" backgroundColor="black" /></div>
+                <div style={{ background: 'grey', backgroundColor: 'grey', paddingBottom: '0px'}} ><img src="images/Rectangle_16149.png" backgroundColor="black" width="274px" height="247px"/></div>
                </div>
               </div>
               <div style={{ background: 'grey', backgroundColor: 'grey', paddingBottom: '0px', width: '565px', height: '120px', alignItems: 'center', justifyContent: 'center', display: 'flex'}}>
-               <div style={{ border: '1px solid black', width: '500px', height: '50px', alignItems: 'center', justifyContent: 'center', display: 'flex'}}>
+               {/* <div style={{ border: '1px solid black', width: '500px', height: '50px', alignItems: 'center', justifyContent: 'center', display: 'flex'}}>
                 78-5456 กรุงเทพมหานคร
                </div>
                <div style={{ border: '1px solid black', width: '500px', height: '50px', alignItems: 'center', justifyContent: 'center', display: 'flex'}}>
                 78-5456 กรุงเทพมหานคร
-               </div>
+               </div> */}
+
+               <table border="1" bordercolor="black" align="center" width='500px'>
+                 <tr>
+                  <td colSpan="2" align="center">66-4589 กรุงเทพมหานคร</td>
+                 </tr>
+                 <tr>
+                  <td align="center" borderRight="1">Toyota Hilux Revo</td>
+                  <td align="center">2024-06-28 10:13:02</td>
+                 </tr>
+                </table>
               
               </div>
              </div>
